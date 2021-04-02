@@ -1,0 +1,5 @@
+{
+  "PORT": 5000,
+  "DataBaseURL": "mongodb+srv://test:ronaldo10@cluster0.adyrp.mongodb.net/Test-cluid?retryWrites=true&w=majority",
+  "tokenKey": "amangeldi"
+}

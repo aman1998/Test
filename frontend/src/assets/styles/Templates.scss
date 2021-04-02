@@ -1,0 +1,28 @@
+@import './Variables.scss';
+
+@mixin btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $secondBg;
+    width: 269px;
+    height: 40px;
+    border-radius: 6px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+  &:focus {
+    outline: 0;
+  }
+}
+
+@mixin input {
+  padding: 0 5px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  outline: none;
+}

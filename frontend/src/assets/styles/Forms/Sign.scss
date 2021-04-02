@@ -1,0 +1,41 @@
+@import '../Templates.scss';
+@import '../Variables.scss';
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  input {
+    @include input;
+    margin-bottom: 10px;
+  }
+  button {
+    @include btn;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  &__up, &__in {
+    display: flex;
+    flex-direction: column;
+    .text {
+      display: flex;
+      justify-content: space-between;
+      &__error {
+        font-size: 16px;
+        line-height: 18px;
+        color: rgb(218, 17, 17);
+      }
+      &__btn {
+        cursor: pointer;
+      }
+    }
+  }
+}
